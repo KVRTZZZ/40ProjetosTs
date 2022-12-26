@@ -4,8 +4,7 @@ const bgcolor = document.querySelector('#colorH') as HTMLElement
 
 
 btn.addEventListener("click",() => {
-    let color = '#'
-    console.log(color);
+    let color: string = '#'
     for (let i = 0; i < 6; i++) {
         color += hexDecimal[randomNumber()]
     }
